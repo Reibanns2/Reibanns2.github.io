@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Activity</title>
+    <style>
+        body{
+            background-color: lightslategray;
+        }
+        .container{
+            background-color: white;
+            margin: auto;
+            padding: 2%;
+            text-align: left;
+            width: 17%;
+            border-radius: 5px;
+            font-family: Oswald;
+        }
+        button{
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            border: none;
+        }
+        .submit{
+            background-color: green;
+            color: white;
+        }
+        .reset{
+            background-color: red;
+            color: white;
+        }
+        .inputField{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+            First name: <br><input type= "text" class="inputField" name= "firstname" /><br>
+            Last name: <br><input type= "text" class="inputField" name= "lastname" /><br>
+            Nickname: <br><input type= "text" class="inputField" name= "nickname" /><br>
+            Email: <br><input type= "text" class="inputField" name= "email" /><br>
+            Password: <br><input type= "password" class="inputField" name= "password" /><br>
+            Date of Birth: <br><input type= "date" class="inputField" name= "dateOfBirth" /><br>
+            Gender: <br>
+            <input type= "radio" name= "male" />Male
+            <input type= "radio" name= "female" />Female
+            <input type= "radio" name= "other" />Other<br>
+            Mobile: <br><input type= "text" class="inputField" name= "mobile" /><br>
+            Address: <br><textarea name= "address" cols = "30" rows="10"></textarea><br>
+            <button class="submit">Submit</button>
+            <button class="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
